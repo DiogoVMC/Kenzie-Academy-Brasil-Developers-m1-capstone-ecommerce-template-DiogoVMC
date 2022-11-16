@@ -122,6 +122,12 @@ hr{
     display: flex;
     flex-direction: column;
 }
+.cartProducts{
+	max-height: 350px;
+	overflow-x: auto;
+}
+
+
 .cartTitle{
 	color:#F5F5F5;
 	background-color: #37268C;
@@ -277,3 +283,15 @@ hr{
 	color: #37268C;
 	text-decoration: underline;
 }
+.cartProducts::-webkit-scrollbar {
+    width: 16px;
+  }
+
+.cartProducts::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+.cartProducts::-webkit-scrollbar-thumb {
+    background-color: #37268C;
+    border: 3px solid #ffffff;
+  }
