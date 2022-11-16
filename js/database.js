@@ -33,7 +33,7 @@ const data = [
   },
   {
     id: 4,
-    img: "../img/camiseta_preta.svg",
+    img: "./img/camiseta_preta.svg",
     nameItem: "T-Shirt",
     description:
       "Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...",

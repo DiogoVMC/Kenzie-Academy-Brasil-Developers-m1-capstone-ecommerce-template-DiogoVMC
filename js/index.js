@@ -165,3 +165,4 @@ valueTitle.innerText=`Valor Total:`
 valueTotal.innerText=`R$ ${(value).toFixed(2)}`
 quantityTotal.innerText=`${quantity}`
 }
+
