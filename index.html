@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css"> 
+    <title>Weartake</title>
+</head>
+<body>
+    <header class="header">
+        <h class="title">Weartake</h>
+        <form>
+            <input type="button" value="Todos" class="filtros" id="f_1">
+            <input type="button" value= "Acessórios" class="filtros" id="f_2">
+            <input type="button" value="Calçados" class="filtros" id="f_3">
+            <input type="button" value="Camisetas"class="filtros" id="f_4">
+        </form>
+    </header>
+    <hr>
+    <div class="container">
+         <main class="vitrine">
+         
+         </main>
+    
+        <aside class="aside">
+            <form class="searchBox">
+                <input class="search" type="text" name="search" required="true" placeholder="Digite aqui sua pesquisa">
+                <button type="submit" class="submit">Pesquisar</button>
+            </form>
+            <div class="cart">
+                <div class="cartTitle">
+                    <h4 class="cartTitle">Carrinho de compras </h4>
+                </div>
+
+                <div class="productList">
+                </div>
+                <div class="totalContainer">
+                    <div class="titleTotal">
+                        <p class ="quantityTitle"> </p>
+                        <p class ="valueTitle"> </p>
+                    </div>              
+                    <div class="valueTotal">
+                            <p class="value"></p>
+                            <p class="quantity"></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    
+</body>
+</html>
